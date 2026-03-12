@@ -61,7 +61,7 @@ console.log("Min number: " + min);
 console.log("--------------------------------");
 
 //write a program that can sort the numbers array in ascending order withour using any built-in sort function
-for (let i = 0; i < numbers.length - 11; i++) {
+for (let i = 0; i < numbers.length - 1; i++) {
   for (let j = 0; j < numbers.length - i - 1; j++) {
     if (numbers[j] > numbers[j + 1]) {
       // swap
